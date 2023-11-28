@@ -17,5 +17,12 @@ public class Student4 {
         String rokStudiow = scanner.nextLine();
         System.out.print("Podaj kierunek: ");
         String kierunek = scanner.nextLine();
+
+        System.out.println("Dodano studenta: ");
+        //Wyświetlenie wprowadzonych danych ze zmiennych
+        System.out.println("Imie: "+imie);
+        System.out.println("Nazwisko: "+nazwisko);
+        System.out.println("Rok studiow: "+rokStudiow);
+        System.out.println("Kierunek: "+kierunek);
     }
 }

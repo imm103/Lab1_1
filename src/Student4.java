@@ -18,12 +18,17 @@ public class Student4 {
         System.out.print("Podaj kierunek: ");
         String kierunek = scanner.nextLine();
 
-        System.out.println("Dodano studenta: ");
+        System.out.println("Dane studenta: ");
         //Wyświetlenie wprowadzonych danych ze zmiennych
         System.out.println("Imie: "+imie);
         System.out.println("Nazwisko: "+nazwisko);
         System.out.println("Rok studiow: "+rokStudiow);
         System.out.println("Kierunek: "+kierunek);
+
+        scanner.nextLine();
+        System.out.print("Czy dane sa prawidlowe? 1=tak 0=nie ");
+        int dane = scanner.nextInt();
+        System.out.println(dane);
 
         //Zamknięcie obiektu Scanner
         scanner.close();

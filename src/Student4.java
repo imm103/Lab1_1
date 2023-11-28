@@ -24,5 +24,8 @@ public class Student4 {
         System.out.println("Nazwisko: "+nazwisko);
         System.out.println("Rok studiow: "+rokStudiow);
         System.out.println("Kierunek: "+kierunek);
+
+        //Zamknięcie obiektu Scanner
+        scanner.close();
     }
 }
